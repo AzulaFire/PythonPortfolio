@@ -112,3 +112,19 @@ print(name.endswith('h'))
 print(feet_inches.split('_'))
 
 
+# JSON DATA EXAMPLE
+
+"""
+"questions": [
+    {
+      "number": 1,
+      "question": "Eighteen thousandths, written as a decimal, is:",
+      "answers": [
+        "0.0018",
+        "0.018",
+        "0.18"
+      ],
+      "correct_answer": 1
+    },
+
+"""
