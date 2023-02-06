@@ -3,5 +3,4 @@ Go To Work
 Throw Away Trash
 Clean Up Code
 Study Python
-Take A Break
 Go Home
