@@ -1,7 +1,21 @@
 
 TODOS_PATH = "./files/todos.txt"
 
-def add():
+# GUI Version - FUNCTIONS
+
+def gui_write_todos(todo):
+    with open(TODOS_PATH, 'w') as file:
+      file.writelines(todo)
+
+def gui_get_todos():
+  with open(TODOS_PATH) as file:  
+    todos_local = file.readlines()
+  return todos_local
+
+
+# CLI Version - FUNCTIONS
+
+def cli_add():
   x = 0
   num_of_todos = input("\nHow many to-do tasks do you want to add. Enter a number: ")
   if num_of_todos.isnumeric() == False:
@@ -19,7 +33,7 @@ def add():
       file.writelines(todos)
     x += 1
 
-def show():
+def cli_show():
   with open(TODOS_PATH) as file: 
     todos = file.readlines()
 
@@ -31,7 +45,7 @@ def show():
     print(f"{index + 1}. {todo}")
   return todos
 
-def getNumber(mode):
+def cli_getNumber(mode):
     with open(TODOS_PATH) as file:  
       todos = file.readlines()
 

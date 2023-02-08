@@ -8,13 +8,13 @@ while True:
   try:
 
     if user_action == 'add':
-      add()
+      cli_add()
     elif user_action == 'show':
-      show()
+      cli_show()
     elif user_action == 'edit':
-      todos = show()
+      todos = cli_show()
 
-      number = getNumber('edit')
+      number = cli_getNumber('edit')
       new_value = input("\nEnter the new value: ")
       todos[int(number) - 1] = new_value.title() + "\n"
 
@@ -23,9 +23,9 @@ while True:
 
       print("\nThe to-do has been updated.\n")
     elif user_action == 'complete':
-      todos = show()
+      todos = cli_show()
 
-      number = getNumber('complete')
+      number = cli_getNumber('complete')
       todo_to_remove = todos[int(number) -1].strip('\n')
       with open(TODOS_PATH, 'w') as file:
         todos.pop(int(number) - 1)

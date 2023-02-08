@@ -1,6 +1,2 @@
-Clean My Room
-Go To Work
-Throw Away Trash
-Clean Up Code
 Study Python
-Go Home
+Play Game
