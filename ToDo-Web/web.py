@@ -2,10 +2,6 @@ import streamlit as st
 import functions
 import time
 
-# LINK TO THE CSS FILE
-with open('style.css')as f:
- st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html = True)
-
 # WEB Functions
 
 todos = functions.gui_get_todos()
