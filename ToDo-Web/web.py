@@ -1,13 +1,6 @@
 import streamlit as st
 import functions
 import time
-import os
-
-# Check if file exists
-
-if not os.path.exists("./files/todos.txt"):
-  with open("./files/todos.txt", "w") as file:
-    pass
 
 # LINK TO THE CSS FILE
 with open('style.css')as f:
