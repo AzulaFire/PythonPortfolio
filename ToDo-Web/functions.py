@@ -1,5 +1,5 @@
 
-TODOS_PATH = "./files/todos.txt"
+TODOS_PATH = "files/todos.txt"
 
 # GUI Version - FUNCTIONS
 
