@@ -14,12 +14,15 @@ local_css("style.css")
 remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 
 st.title("The Best Company")
+st.subheader("What makes us who we are today…")
 
 description = """
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+At <b>The Best Company</b>, we develop innovative and creative products and services that provide total communication and information solutions. Among a plethora of services, web design and development, tailor made applications, ERPs, CRMs, e-commerce solutions, business-to-business applications, business-to-client applications, managed hosting and internet portal management are few that we offer. Satisfied clients around the globe bear testimony to the quality of our work.
+
+As a leader in technology exploring, <b>The Best Company</b> is committed to exporting quality software worldwide.
 """
 
-st.write(description)
+st.write(description, unsafe_allow_html=True)
 
 st.subheader("Our Team")
 
