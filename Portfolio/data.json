@@ -1,0 +1,122 @@
+[
+	{
+		"title": "Todo App",
+		"description": "A distraction-free web app to help you focus on creating and completing tasks.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/1.png"
+	},
+	{
+		"title": "Portfolio Website",
+		"description": "A website built entirely in Python to showcase coding projects and apps.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/2.png"
+	},
+	{
+		"title": "PDF Templates",
+		"description": "A script that generates PDF templates of multiple pages given some predefined guidelines.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/3.png"
+	},
+	{
+		"title": "PDF Invoices",
+		"description": "A script that reads invoice records from Excel files and automatically generates PDF invoices.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/4.png"
+	},
+	{
+		"title": "Positive News Site",
+		"description": "A website that gets data from a news API and uses sentiment analysis to publish only positive news.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/5.png"
+	},
+	{
+		"title": "Weather API",
+		"description": "A REST API built with Python and Flask to serve historical weather data for various cities.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/6.png"
+	},
+	{
+		"title": "Download Cleaner",
+		"description": "A script that monitors the Downloads folder and deletes old files keeping the folder clean.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/7.png"
+	},
+	{
+		"title": "Music Tour Scraper",
+		"description": "A program that checks a music band's website and sends an email when there are new tours.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/8.png"
+	},
+	{
+		"title": "Helper Chatbot",
+		"description": "A chatbot that knows about a specific topic and answers questions regarding that topic.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/9.png"
+	},
+	{
+		"title": "Open Domain Chatbot",
+		"description": "A chatbot built that can discuss anything with a human and is built using the Facebook API.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/10.png"
+	},
+	{
+		"title": "Webcam Motion Detector",
+		"description": "A program that monitors the computer webcam and sends an email when a new object enters the view.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/11.png"
+	},
+	{
+		"title": "Typing Analyzer",
+		"description": "A program that monitors the computer keyboard and returns the most typed words of the session.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/12.png"
+	},
+	{
+		"title": "Internet Speed Analysis",
+		"description": "A program that records the internet speed every few seconds and plots the values on the browser.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/13.png"
+	},
+	{
+		"title": "Monitoring Data",
+		"description": "A program that monitors a particular website and periodically records the data to a remote server.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/14.png"
+	},
+	{
+		"title": "Visualizing Data",
+		"description": "A program that visualizes the data collected in the previous monitoring program.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/15.png"
+	},
+	{
+		"title": "Visualizing Weather Forecast",
+		"description": "A data web app that visualizes the weather forecast for the next five days of any city.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/16.png"
+	},
+	{
+		"title": "Student Management System",
+		"description": "A desktop PyQt6 GUI app for managing university student data with an SQL database backend.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/17.png"
+	},
+	{
+		"title": "School Management System",
+		"description": "A desktop PyQt6 GUI app for managing complex university data with an SQL database backend.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/18.png"
+	},
+	{
+		"title": "Restaurant Menu Web App",
+		"description": "A Django web app to let customers see a restaurant menu and meal availability.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/19.png"
+	},
+	{
+		"title": "Online Store",
+		"description": "A Django online store app where users can place orders and sellers can manage them.",
+		"url": "https://www.azulafire.com",
+		"image": "assets/images/20.png"
+	}
+]
