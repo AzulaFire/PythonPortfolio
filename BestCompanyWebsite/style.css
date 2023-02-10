@@ -1,0 +1,9 @@
+img {
+	border-radius: 50%;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+img:hover {
+	outline: solid 4px greenyellow;
+	outline-offset: -4px;
+}
