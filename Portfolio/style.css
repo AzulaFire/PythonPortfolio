@@ -1,0 +1,12 @@
+#MainMenu {
+	visibility: hidden;
+}
+footer {
+	visibility: hidden;
+}
+
+/* For Sidebar */
+/* section[data-testid="stSidebar"] {
+	background-image: linear-gradient(#8993ab, #8993ab);
+	color: white;
+} */
