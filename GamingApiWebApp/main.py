@@ -10,8 +10,6 @@ path = os.path.dirname(__file__)
 banner = path +'/banner.png'
 css = path + '/style.css'
 
-print(banner, css)
-
 API_KEY = st.secrets["API_KEY"] #https://newsapi.org/
 TOPIC = ""
 BLOB = ""
@@ -29,11 +27,10 @@ siliconera.com,
 destructoid.com
 """
 
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
-local_css(css)
+with open(css) as f:
+    st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+
 
 # Make website using streamlit
 
