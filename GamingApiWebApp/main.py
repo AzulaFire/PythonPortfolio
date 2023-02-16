@@ -12,7 +12,7 @@ css = path + '/style.css'
 
 print(banner, css)
 
-API_KEY = "" #https://newsapi.org/
+API_KEY = st.secrets["API_KEY"] #https://newsapi.org/
 TOPIC = ""
 BLOB = ""
 
