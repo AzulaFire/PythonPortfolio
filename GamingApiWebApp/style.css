@@ -6,6 +6,7 @@ html,
 body,
 [class*="css"] {
 	font-family: "Roboto", sans-serif;
+	color: #ffffff;
 }
 
 .main {
@@ -58,4 +59,8 @@ section[data-testid="stSidebar"] {
 
 section[data-testid="stSidebar"] .css-183lzff {
 	color: #343434;
+}
+
+.edgvbvh5 {
+	background-color: #343434;
 }
