@@ -10,6 +10,8 @@ path = os.path.dirname(__file__)
 banner = path +'/banner.png'
 css = path + '/style.css'
 
+print(banner, css)
+
 API_KEY = "" #https://newsapi.org/
 TOPIC = ""
 BLOB = ""
@@ -41,7 +43,7 @@ with col1:
     st.write(' ')
 
 with col2:
-    st.image("banner.png")
+    st.image(banner)
 
 with col3:
     st.write(' ')
