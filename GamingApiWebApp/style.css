@@ -42,6 +42,14 @@ footer {
 	background-color: #343434;
 }
 
+.css-1wrcr25 {
+	background-color: #7f1327;
+}
+
+.css-fblp2m {
+	color: #fcb51a;
+}
+
 /* For Sidebar */
 section[data-testid="stSidebar"] {
 	background-color: #fcb51a;
