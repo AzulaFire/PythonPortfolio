@@ -6,6 +6,9 @@ html,
 body,
 [class*="css"] {
 	font-family: "Roboto", sans-serif;
+}
+
+.main {
 	background-color: #7f1327;
 }
 
@@ -33,6 +36,10 @@ p {
 }
 footer {
 	visibility: hidden;
+}
+
+section[data-testid="stHeader"] {
+	background-color: #343434;
 }
 
 /* For Sidebar */
