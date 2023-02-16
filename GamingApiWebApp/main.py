@@ -2,8 +2,13 @@ import streamlit as st
 import requests
 from requests.exceptions import HTTPError
 from send_email import sendEmail
+import os
 
 st.set_page_config(page_title="GAMERS | RISING", initial_sidebar_state="collapsed")
+
+path = os.path.dirname(__file__)
+banner = path +'/banner.png'
+css = path + '/style.css'
 
 API_KEY = "" #https://newsapi.org/
 TOPIC = ""
@@ -26,7 +31,7 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
-local_css("style.css")
+local_css(css)
 
 # Make website using streamlit
 
