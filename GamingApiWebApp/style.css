@@ -6,6 +6,7 @@ html,
 body,
 [class*="css"] {
 	font-family: "Roboto", sans-serif;
+	background-color: #7f1327;
 }
 
 .css-10trblm {
