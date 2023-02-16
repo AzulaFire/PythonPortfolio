@@ -4,8 +4,8 @@ def sendEmail(toAddress, msg):
   host = "smtp.gmail.com"
   port = 465
 
-  username = "YOUR EMAIL USERNAME"
-  password = "YOUR PASSWORD" # Enviroment Variable
+  username = ""
+  password = "" # Enviroment Variable
 
   sent_from = "jhornjr@gmail.com"
   context = ssl.create_default_context()

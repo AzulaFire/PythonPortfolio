@@ -5,7 +5,7 @@ from send_email import sendEmail
 
 st.set_page_config(page_title="GAMERS | RISING", initial_sidebar_state="collapsed")
 
-API_KEY = "YOUR API KEY" #https://newsapi.org/
+API_KEY = "" #https://newsapi.org/
 TOPIC = ""
 BLOB = ""
 
