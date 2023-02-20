@@ -1,0 +1,11 @@
+.bold {
+	font-weight: 800;
+}
+
+.green {
+	color: green;
+}
+
+pre {
+	white-space: pre-wrap;
+}

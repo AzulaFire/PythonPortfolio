@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="static/css/style.css" />
+		<title>Home</title>
+	</head>
+	<body>
+		<h1>Bible REST API</h1>
+		<h3>Book / Chapter / Verse</h3>
+		<p>URL format: http://127.0.0.1.5000/api/v1/book/chapter/verse/</p>
+		<p>
+			URL example:
+			<a href="http://127.0.0.1.5000/api/v1/John/3/16"
+				>http://127.0.0.1.5000/api/v1/John/3/16/</a
+			>
+		</p>
+		<pre>
+{
+  <span class="bold">"Book":</span><span class="green"> "John"</span>,
+  <span class="bold">"Chapter":</span><span class="green"> "3",</span>
+  <span class="bold">"Text":</span><span class="green"> "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",</span>
+  <span class="bold">"Verse":</span><span class="green"> "16"</span>
+}
+		</pre>
+		<h3>Book / Chapter</h3>
+		<p>URL format: http://127.0.0.1.5000/api/v1/book/chapter/</p>
+		<p>
+			URL example:
+			<a href="http://127.0.0.1.5000/api/v1/John/3/"
+				>http://127.0.0.1.5000/api/v1/John/3/</a
+			>
+		</p>
+		<pre>
+{
+  <span class="bold">"Book":</span><span class="green"> "John"</span>,
+  <span class="bold">"Chapter":</span><span class="green"> "3",</span>
+  <span class="bold">"Text":</span><span class="green"> "There was a man of the Pharisees, named Nicodemus, a ruler of the Jews:",</span>
+  <span class="bold">"Verse":</span><span class="green"> "1"</span>
+},
+{
+  <span class="bold">"Book":</span><span class="green"> "John",</span>
+  <span class="bold">"Chapter":</span><span class="green"> "3",</span>
+  <span class="bold">"Text":</span><span class="green">"The same came to Jesus by night, and said unto him, Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him.",</span>
+  <span class="bold">"Verse":</span><span class="green"> "2"</span>
+},
+{
+  <span class="bold">"Book":</span><span class="green"> "John",</span>
+  <span class="bold">"Chapter":</span><span class="green"> "3",</span>
+  <span class="bold">"Text":</span><span class="green"> "Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.",</span>
+  <span class="bold">"Verse":</span><span class="green"> "3"</span>
+},
+} <span class="bold">...</span>
+		</pre>
+		<h3>Random Memory Verse</h3>
+		<p>URL format: http://127.0.0.1.5000/api/v1/random/</p>
+		<p>
+			URL example:
+			<a href="http://127.0.0.1.5000/api/v1/random/"
+				>http://127.0.0.1.5000/api/v1/random/</a
+			>
+		</p>
+		<p>{{popular|safe}}</p>
+		<h3>Bible List</h3>
+		<p>{{data|safe}}</p>
+	</body>
+</html>
