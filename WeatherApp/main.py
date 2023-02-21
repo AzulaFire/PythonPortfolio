@@ -1,6 +1,11 @@
 import streamlit as st
 import plotly.express as px
 from api import get_data
+import os
+
+st.set_page_config(page_title="Weather Forecaster")
+
+path = os.path.dirname(__file__)
 
 st.header("Weather Forcaster")
 
@@ -35,7 +40,7 @@ if place != "---":
             st.plotly_chart(figure)
 
         if option == "Sky View":
-            images = {"Clear": "assets/images/clear.png", "Clouds": "assets/images/cloud.png", "Rain": "assets/images/rain.png", "Snow": "assets/images/snow.png"}
+            images = {"Clear": path + "/assets/images/clear.png", "Clouds": path + "/assets/images/cloud.png", "Rain": path + "assets/images/rain.png", "Snow": path + "assets/images/snow.png"}
 
             sky_conditions = [dict["weather"][0]["main"] for dict in filtered_data]
 
