@@ -140,7 +140,7 @@ if num >= 0 and num < 101:
         #hand = testing
         result = check_hand(hand)
         results.append(result)
-        card = ["images/" + str(card) + ".png" for card in hand]
+        card = [path + "/images/" + str(card) + ".png" for card in hand]
         hands[h] = card
         cards = []
 
