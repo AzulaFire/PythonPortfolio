@@ -1,9 +1,10 @@
 import feedparser
+import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 import streamlit as st
 import matplotlib.pyplot as plt
 import os
-# nltk.download('vader_lexicon')
+nltk.download('vader_lexicon')
 
 st.set_page_config(page_title="Daily News - Sentiment Analysis", initial_sidebar_state="collapsed", layout="wide")
 
