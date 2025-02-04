@@ -31,7 +31,7 @@ for index, todo in enumerate(todos):
     todos.pop(index)
     functions.gui_write_todos(todos)
     del st.session_state[todo]
-    st.experimental_rerun()
+    st.rerun()
 
 st.text_input(label="", placeholder="Add new To-Do...", key="-ADD-", on_change=add_todo)
 
